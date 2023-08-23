@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Calendar
+    </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+    <div class="Top-bar">
+        <div class="right">
+            <button onclick="updateMonth(1)">Next Month</button>
+            <button onclick="updateMonth(-1)">Previous Month</button>
+        </div>
+
+        <div class="middle">
+            <h2 id="month"> month</h2>
+            <h2 id="year">year</h2>
+            <h2 id="time">time</h2>
+        </div>
+
+        <div class="left">
+            <button onclick="updateYear(1)">Next year</button>
+            <button onclick="updateYear(-1)">Previous year</button>
+        </div>
+    </div>
+
+    <div class = "grid-container">
+        <div class="grid-items day">Mon</div>
+        <div class="grid-items day">Tue</div>
+        <div class="grid-items day">Wed</div>
+        <div class="grid-items day">Thu</div>
+        <div class="grid-items day">Fri</div>
+        <div class="grid-items day">Sat</div>
+        <div class="grid-items day">Sun</div>
+
+        <div class="grid-items " id = "start">1</div>
+        <div class="grid-items">2</div>
+        <div class="grid-items">3</div>
+        <div class="grid-items">4</div>
+        <div class="grid-items">5</div>
+        <div class="grid-items">6</div>
+        <div class="grid-items">7</div>
+        <div class="grid-items">8</div>
+        <div class="grid-items">9</div>
+        <div class="grid-items">10</div>
+
+        <div class="grid-items">11</div>
+        <div class="grid-items">12</div>
+        <div class="grid-items">13</div>
+        <div class="grid-items">14</div>
+        <div class="grid-items">15</div>
+        <div class="grid-items">16</div>
+        <div class="grid-items">17</div>
+        <div class="grid-items">18</div>
+        <div class="grid-items">19</div>
+        <div class="grid-items">20</div>
+
+        <div class="grid-items">21</div>
+        <div class="grid-items">22</div>
+        <div class="grid-items">23</div>
+        <div class="grid-items">24</div>
+        <div class="grid-items">25</div>
+        <div class="grid-items">26</div>
+        <div class="grid-items">27</div>
+        <div class="grid-items " id = "28">28</div>
+        <div class="grid-items" id = "29">29</div>
+        <div class="grid-items" id = "30">30</div>
+        <div class="grid-items" id = "31">31</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+<footer>By, Thiyagarajan.M </footer>
+
+</html>
